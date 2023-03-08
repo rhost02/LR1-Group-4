@@ -3,7 +3,7 @@
 
 book = input("Enter book name: ").lower()
 lines = list()
-filepath = f"LR1-Group-4\\text-navigator\\books\\{book}.txt"
+filepath = f"books\\{book}.txt"
 
 with open(filepath, 'r', encoding="utf-8") as f:
     for line in f:
