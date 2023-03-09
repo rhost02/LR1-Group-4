@@ -5,7 +5,7 @@ inputFileName = input('Enter the input file name: ')
 #Open the file for reading
 fin = open(inputFileName, "r")
 
-#Create emplty list
+#Create empty list
 fileList = list()
 
 
